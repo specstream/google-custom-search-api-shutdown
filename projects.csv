@@ -1,17 +1,39 @@
 repository,name,stars,stars_read,default_branch,path,line,pattern,kind,setting,public_items,public_items_by_others,guide
 open-webui/open-webui,Open WebUI,158326,2026-11-11,main,backend/open_webui/retrieval/web/google_pse.py,24,googleapis.com/customsearch/v1,code,,https://github.com/open-webui/open-webui/issues/20961 https://github.com/open-webui/open-webui/issues/8124,2,https://specstream.ai/google-pse/open-webui
+odysseus-dev/odysseus,Odysseus,95567,2026-11-11,dev,services/search/providers.py,562,googleapis.com/customsearch/v1,code,,,0,
 cheaper-inference/OmniRoute,OmniRoute,86301,2026-11-11,release/v3.8.54,src/lib/providers/validation/searchProviders.ts,119,googleapis.com/customsearch/v1,code,,https://github.com/cheaper-inference/OmniRoute/issues/1984,1,
 lobehub/lobehub,LobeHub,84873,2026-11-11,canary,apps/server/src/services/search/impls/google/index.ts,37,www.googleapis.com,code,,https://github.com/lobehub/lobehub/pull/19801,1,https://specstream.ai/web-search/lobehub
 BerriAI/litellm,LiteLLM,63067,2026-11-11,main,litellm/llms/google_pse/search/transformation.py,64,googleapis.com/customsearch/v1,setting,GOOGLE_PSE_API_BASE,,0,https://specstream.ai/google-pse/litellm
 microsoft/autogen,AutoGen,61778,2026-11-11,main,python/packages/autogen-studio/autogenstudio/gallery/tools/google_search.py,103,googleapis.com/customsearch/v1,code,,,0,
 run-llama/llama_index,LlamaIndex,52869,2026-11-11,main,llama-index-integrations/tools/llama-index-tools-google/llama_index/tools/google/search/base.py,11,googleapis.com/customsearch/v1,code,,,0,
+mudler/LocalAI,LocalAI,50301,2026-11-11,master,addons/web/internal/providers/keyed.go,21,googleapis.com/customsearch/v1,code,,,0,
 discourse/discourse,Discourse AI,48074,2026-11-11,main,plugins/discourse-ai/lib/agents/tools/google.rb,47,googleapis.com/customsearch/v1,code,,https://github.com/discourse/discourse/pull/45934,0,
 khoj-ai/khoj,Khoj,38104,2026-11-11,master,src/khoj/processor/tools/online_search.py,362,googleapis.com/customsearch/v1,code,,,0,https://specstream.ai/web-search/khoj
 assafelovic/gpt-researcher,GPT Researcher,30621,2026-11-11,main,gpt_researcher/retrievers/google/google.py,79,googleapis.com/customsearch/v1,code,,,0,https://specstream.ai/google-pse/gpt-researcher
+wolfpld/tracy,Tracy Profiler,17102,2026-11-11,master,profiler/src/profiler/TracyLlmTools.cpp,559,googleapis.com/customsearch/v1,code,,,0,
+shmilylty/OneForAll,OneForAll,10143,2026-11-11,master,modules/search/google_api.py,12,googleapis.com/customsearch/v1,code,,,0,
+osaurus-ai/osaurus,Osaurus,8158,2026-11-11,main,Packages/OsaurusCore/Models/Configuration/SearchProviderCatalog.swift,373,googleapis.com/customsearch/v1,code,,,0,
+BuilderIO/agent-native,Agent Native,7672,2026-11-11,main,templates/slides/server/lib/media-search-providers.ts,3,googleapis.com/customsearch/v1,code,,,0,
 PrefectHQ/marvin,Marvin,6204,2026-11-11,main,examples/deepseek_chat.py,55,googleapis.com/customsearch/v1,code,,,0,
 scriptscat/scriptcat,ScriptCat,5846,2026-11-11,main,src/app/service/agent/core/tools/web_search.ts,145,googleapis.com/customsearch/v1,code,,,0,
 the-open-agent/openagent,OpenAgent,5742,2026-11-11,master,tool/web_search.go,113,googleapis.com/customsearch/v1,setting,ProviderUrl,,0,https://specstream.ai/google-pse/openagent
+dtyq/magic,Magic,5081,2026-11-11,master,backend/magic-service/app/Infrastructure/ExternalAPI/Search/GoogleSearch.php,23,googleapis.com/customsearch/v1,code,,,0,
+ParisNeo/lollms-webui,lollms-webui,4794,2026-11-11,main,zoos/functions_zoo/data_search/deep_search/function.py,343,googleapis.com/customsearch/v1,code,,,0,
 OpenManus/OpenManus-RL,OpenManus-RL,4176,2026-11-11,main,openmanus_rl/tools/google_search/tool.py,54,googleapis.com/customsearch/v1,code,,,0,
 swirlai/swirl-search,Swirl,3049,2026-11-11,main,docs/SP-Guide.md,228,googleapis.com/customsearch/v1,setting,url,,0,https://specstream.ai/google-pse/swirl
+felinics/Memoh,Memoh,2800,2026-11-11,main,internal/agent/tool/web.go,230,googleapis.com/customsearch/v1,setting,base_url,,0,https://specstream.ai/web-search/memoh
+kwaroran/Risuai,Risuai,1849,2026-11-11,main,src/ts/process/mcp/googlesearchclient.ts,144,googleapis.com/customsearch/v1,code,,,0,
+limecloud/lime,Lime,1494,2026-11-11,main,lime-rs/crates/tool-runtime/src/web_search.rs,535,googleapis.com/customsearch/v1,code,,,0,
+NVIDIA-NeMo/Gym,Gym,1329,2026-11-11,main,resources_servers/google_search/app.py,116,googleapis.com/customsearch/v1,code,,,0,
+Runfusion/Fusion,Fusion,1323,2026-11-11,main,packages/engine/src/research/providers/web-search-provider.ts,207,googleapis.com/customsearch/v1,code,,,0,
+existence-master/Sentient,Sentient,721,2026-11-11,main,sentient/integrations/plugins/search.py,41,googleapis.com/customsearch/v1,code,,,0,
+akitaonrails/FrankMD,FrankMD,587,2026-11-11,master,app/controllers/images_controller.rb,263,googleapis.com/customsearch/v1,code,,,0,
+labring/aiproxy,AI Proxy,571,2026-11-11,main,mcp-servers/hosted/web-search/engine/google.go,63,googleapis.com/customsearch/v1,code,,,0,
+code-yeongyu/senpi,senpi,517,2026-11-11,main,packages/coding-agent/src/core/extensions/builtin/websearch/websearch/provider-endpoints.ts,11,googleapis.com/customsearch/v1,setting,baseUrl,,0,
+CraftOS-dev/CraftBot,CraftBot,420,2026-11-11,main,app/data/action/web_search.py,163,customsearch,code,,,0,
+x-pai/AlphaBot,AlphaBot,406,2026-11-11,main,backend/app/core/config.py,73,googleapis.com/customsearch/v1,setting,GOOGLE_SEARCH_BASE_URL,,0,
+open-net-worth-ai/open-net-worth,Open Net Worth,343,2026-11-11,main,backend/ai/search/google_pse_provider.py,10,googleapis.com/customsearch/v1,code,,,0,
+helixnow/deep-student,deep-student,310,2026-11-11,main,src-tauri/crates/dstu-mcp/src/tools/web_search.rs,1943,googleapis.com/customsearch/v1,code,,,0,
+shawn0728/OpenSearch-VL,OpenSearch-VL,308,2026-11-11,main,RL/rllm/rllm/tools/web_tools/gsearch_tool.py,10,googleapis.com/customsearch/v1,code,,,0,
 mattermost/mattermost-plugin-agents,Mattermost Agents,257,2026-11-11,master,websearch/google.go,19,googleapis.com/customsearch/v1,setting,API URL (optional),https://github.com/mattermost/mattermost-plugin-agents/pull/1058,1,https://specstream.ai/google-pse/mattermost-agents
 arcships/aimux,aimux,243,2026-11-11,master,aimux-providers/src/google_pse.rs,60,googleapis.com/customsearch/v1,setting,baseUrl,,0,https://specstream.ai/google-pse/aimux
