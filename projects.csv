@@ -1,0 +1,17 @@
+repository,name,stars,stars_read,default_branch,path,line,pattern,kind,setting,public_items,public_items_by_others,guide
+open-webui/open-webui,Open WebUI,158326,2026-11-11,main,backend/open_webui/retrieval/web/google_pse.py,24,googleapis.com/customsearch/v1,code,,https://github.com/open-webui/open-webui/issues/20961 https://github.com/open-webui/open-webui/issues/8124,2,https://specstream.ai/google-pse/open-webui
+cheaper-inference/OmniRoute,OmniRoute,86301,2026-11-11,release/v3.8.54,src/lib/providers/validation/searchProviders.ts,119,googleapis.com/customsearch/v1,code,,https://github.com/cheaper-inference/OmniRoute/issues/1984,1,
+lobehub/lobehub,LobeHub,84873,2026-11-11,canary,apps/server/src/services/search/impls/google/index.ts,37,www.googleapis.com,code,,https://github.com/lobehub/lobehub/pull/19801,1,https://specstream.ai/web-search/lobehub
+BerriAI/litellm,LiteLLM,63067,2026-11-11,main,litellm/llms/google_pse/search/transformation.py,64,googleapis.com/customsearch/v1,setting,GOOGLE_PSE_API_BASE,,0,https://specstream.ai/google-pse/litellm
+microsoft/autogen,AutoGen,61778,2026-11-11,main,python/packages/autogen-studio/autogenstudio/gallery/tools/google_search.py,103,googleapis.com/customsearch/v1,code,,,0,
+run-llama/llama_index,LlamaIndex,52869,2026-11-11,main,llama-index-integrations/tools/llama-index-tools-google/llama_index/tools/google/search/base.py,11,googleapis.com/customsearch/v1,code,,,0,
+discourse/discourse,Discourse AI,48074,2026-11-11,main,plugins/discourse-ai/lib/agents/tools/google.rb,47,googleapis.com/customsearch/v1,code,,https://github.com/discourse/discourse/pull/45934,0,
+khoj-ai/khoj,Khoj,38104,2026-11-11,master,src/khoj/processor/tools/online_search.py,362,googleapis.com/customsearch/v1,code,,,0,https://specstream.ai/web-search/khoj
+assafelovic/gpt-researcher,GPT Researcher,30621,2026-11-11,main,gpt_researcher/retrievers/google/google.py,79,googleapis.com/customsearch/v1,code,,,0,https://specstream.ai/google-pse/gpt-researcher
+PrefectHQ/marvin,Marvin,6204,2026-11-11,main,examples/deepseek_chat.py,55,googleapis.com/customsearch/v1,code,,,0,
+scriptscat/scriptcat,ScriptCat,5846,2026-11-11,main,src/app/service/agent/core/tools/web_search.ts,145,googleapis.com/customsearch/v1,code,,,0,
+the-open-agent/openagent,OpenAgent,5742,2026-11-11,master,tool/web_search.go,113,googleapis.com/customsearch/v1,setting,ProviderUrl,,0,https://specstream.ai/google-pse/openagent
+OpenManus/OpenManus-RL,OpenManus-RL,4176,2026-11-11,main,openmanus_rl/tools/google_search/tool.py,54,googleapis.com/customsearch/v1,code,,,0,
+swirlai/swirl-search,Swirl,3049,2026-11-11,main,docs/SP-Guide.md,228,googleapis.com/customsearch/v1,setting,url,,0,https://specstream.ai/google-pse/swirl
+mattermost/mattermost-plugin-agents,Mattermost Agents,257,2026-11-11,master,websearch/google.go,19,googleapis.com/customsearch/v1,setting,API URL (optional),https://github.com/mattermost/mattermost-plugin-agents/pull/1058,1,https://specstream.ai/google-pse/mattermost-agents
+arcships/aimux,aimux,243,2026-11-11,master,aimux-providers/src/google_pse.rs,60,googleapis.com/customsearch/v1,setting,baseUrl,,0,https://specstream.ai/google-pse/aimux

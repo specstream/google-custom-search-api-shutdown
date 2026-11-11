@@ -1,0 +1,273 @@
+[
+ {
+  "repository": "open-webui/open-webui",
+  "name": "Open WebUI",
+  "stars": 158326,
+  "stars_read": "2026-11-11",
+  "default_branch": "main",
+  "path": "backend/open_webui/retrieval/web/google_pse.py",
+  "line": 24,
+  "pattern": "googleapis.com/customsearch/v1",
+  "kind": "code",
+  "setting": null,
+  "public_items": [
+   {
+    "url": "https://github.com/open-webui/open-webui/issues/20961",
+    "state": "closed",
+    "opened": "2026-01-27",
+    "by_specstream": false,
+    "summary": "issue: Google is deprecating PSE/CSE JSON API"
+   },
+   {
+    "url": "https://github.com/open-webui/open-webui/issues/8124",
+    "state": "closed",
+    "opened": "2024-12-27",
+    "by_specstream": false,
+    "summary": "Google Custom Search JSON API transitions to Vertex Search API"
+   }
+  ],
+  "guide": "https://specstream.ai/google-pse/open-webui"
+ },
+ {
+  "repository": "cheaper-inference/OmniRoute",
+  "name": "OmniRoute",
+  "stars": 86301,
+  "stars_read": "2026-11-11",
+  "default_branch": "release/v3.8.54",
+  "path": "src/lib/providers/validation/searchProviders.ts",
+  "line": 119,
+  "pattern": "googleapis.com/customsearch/v1",
+  "kind": "code",
+  "setting": null,
+  "public_items": [
+   {
+    "url": "https://github.com/cheaper-inference/OmniRoute/issues/1984",
+    "state": "closed",
+    "opened": "2026-05-05",
+    "by_specstream": false,
+    "summary": "[Feature] Google Custom Search JSON API is closed to new customers"
+   }
+  ],
+  "guide": null
+ },
+ {
+  "repository": "lobehub/lobehub",
+  "name": "LobeHub",
+  "stars": 84873,
+  "stars_read": "2026-11-11",
+  "default_branch": "canary",
+  "path": "apps/server/src/services/search/impls/google/index.ts",
+  "line": 37,
+  "pattern": "www.googleapis.com",
+  "kind": "code",
+  "setting": null,
+  "public_items": [
+   {
+    "url": "https://github.com/lobehub/lobehub/pull/19801",
+    "state": "open",
+    "opened": "2026-09-21",
+    "by_specstream": false,
+    "summary": "Adds another paid search provider beside Google"
+   }
+  ],
+  "guide": "https://specstream.ai/web-search/lobehub"
+ },
+ {
+  "repository": "BerriAI/litellm",
+  "name": "LiteLLM",
+  "stars": 63067,
+  "stars_read": "2026-11-11",
+  "default_branch": "main",
+  "path": "litellm/llms/google_pse/search/transformation.py",
+  "line": 64,
+  "pattern": "googleapis.com/customsearch/v1",
+  "kind": "setting",
+  "setting": "GOOGLE_PSE_API_BASE",
+  "public_items": [],
+  "guide": "https://specstream.ai/google-pse/litellm"
+ },
+ {
+  "repository": "microsoft/autogen",
+  "name": "AutoGen",
+  "stars": 61778,
+  "stars_read": "2026-11-11",
+  "default_branch": "main",
+  "path": "python/packages/autogen-studio/autogenstudio/gallery/tools/google_search.py",
+  "line": 103,
+  "pattern": "googleapis.com/customsearch/v1",
+  "kind": "code",
+  "setting": null,
+  "public_items": [],
+  "guide": null
+ },
+ {
+  "repository": "run-llama/llama_index",
+  "name": "LlamaIndex",
+  "stars": 52869,
+  "stars_read": "2026-11-11",
+  "default_branch": "main",
+  "path": "llama-index-integrations/tools/llama-index-tools-google/llama_index/tools/google/search/base.py",
+  "line": 11,
+  "pattern": "googleapis.com/customsearch/v1",
+  "kind": "code",
+  "setting": null,
+  "public_items": [],
+  "guide": null
+ },
+ {
+  "repository": "discourse/discourse",
+  "name": "Discourse AI",
+  "stars": 48074,
+  "stars_read": "2026-11-11",
+  "default_branch": "main",
+  "path": "plugins/discourse-ai/lib/agents/tools/google.rb",
+  "line": 47,
+  "pattern": "googleapis.com/customsearch/v1",
+  "kind": "code",
+  "setting": null,
+  "public_items": [
+   {
+    "url": "https://github.com/discourse/discourse/pull/45934",
+    "state": "open",
+    "opened": "2026-11-10",
+    "by_specstream": true,
+    "summary": "FEATURE: Make the Google search tool endpoint configurable"
+   }
+  ],
+  "guide": null
+ },
+ {
+  "repository": "khoj-ai/khoj",
+  "name": "Khoj",
+  "stars": 38104,
+  "stars_read": "2026-11-11",
+  "default_branch": "master",
+  "path": "src/khoj/processor/tools/online_search.py",
+  "line": 362,
+  "pattern": "googleapis.com/customsearch/v1",
+  "kind": "code",
+  "setting": null,
+  "public_items": [],
+  "guide": "https://specstream.ai/web-search/khoj"
+ },
+ {
+  "repository": "assafelovic/gpt-researcher",
+  "name": "GPT Researcher",
+  "stars": 30621,
+  "stars_read": "2026-11-11",
+  "default_branch": "main",
+  "path": "gpt_researcher/retrievers/google/google.py",
+  "line": 79,
+  "pattern": "googleapis.com/customsearch/v1",
+  "kind": "code",
+  "setting": null,
+  "public_items": [],
+  "guide": "https://specstream.ai/google-pse/gpt-researcher"
+ },
+ {
+  "repository": "PrefectHQ/marvin",
+  "name": "Marvin",
+  "stars": 6204,
+  "stars_read": "2026-11-11",
+  "default_branch": "main",
+  "path": "examples/deepseek_chat.py",
+  "line": 55,
+  "pattern": "googleapis.com/customsearch/v1",
+  "kind": "code",
+  "setting": null,
+  "public_items": [],
+  "guide": null
+ },
+ {
+  "repository": "scriptscat/scriptcat",
+  "name": "ScriptCat",
+  "stars": 5846,
+  "stars_read": "2026-11-11",
+  "default_branch": "main",
+  "path": "src/app/service/agent/core/tools/web_search.ts",
+  "line": 145,
+  "pattern": "googleapis.com/customsearch/v1",
+  "kind": "code",
+  "setting": null,
+  "public_items": [],
+  "guide": null
+ },
+ {
+  "repository": "the-open-agent/openagent",
+  "name": "OpenAgent",
+  "stars": 5742,
+  "stars_read": "2026-11-11",
+  "default_branch": "master",
+  "path": "tool/web_search.go",
+  "line": 113,
+  "pattern": "googleapis.com/customsearch/v1",
+  "kind": "setting",
+  "setting": "ProviderUrl",
+  "public_items": [],
+  "guide": "https://specstream.ai/google-pse/openagent"
+ },
+ {
+  "repository": "OpenManus/OpenManus-RL",
+  "name": "OpenManus-RL",
+  "stars": 4176,
+  "stars_read": "2026-11-11",
+  "default_branch": "main",
+  "path": "openmanus_rl/tools/google_search/tool.py",
+  "line": 54,
+  "pattern": "googleapis.com/customsearch/v1",
+  "kind": "code",
+  "setting": null,
+  "public_items": [],
+  "guide": null
+ },
+ {
+  "repository": "swirlai/swirl-search",
+  "name": "Swirl",
+  "stars": 3049,
+  "stars_read": "2026-11-11",
+  "default_branch": "main",
+  "path": "docs/SP-Guide.md",
+  "line": 228,
+  "pattern": "googleapis.com/customsearch/v1",
+  "kind": "setting",
+  "setting": "url",
+  "public_items": [],
+  "guide": "https://specstream.ai/google-pse/swirl"
+ },
+ {
+  "repository": "mattermost/mattermost-plugin-agents",
+  "name": "Mattermost Agents",
+  "stars": 257,
+  "stars_read": "2026-11-11",
+  "default_branch": "master",
+  "path": "websearch/google.go",
+  "line": 19,
+  "pattern": "googleapis.com/customsearch/v1",
+  "kind": "setting",
+  "setting": "API URL (optional)",
+  "public_items": [
+   {
+    "url": "https://github.com/mattermost/mattermost-plugin-agents/pull/1058",
+    "state": "open",
+    "opened": "2026-09-27",
+    "by_specstream": false,
+    "summary": "Adds another paid search provider beside Google"
+   }
+  ],
+  "guide": "https://specstream.ai/google-pse/mattermost-agents"
+ },
+ {
+  "repository": "arcships/aimux",
+  "name": "aimux",
+  "stars": 243,
+  "stars_read": "2026-11-11",
+  "default_branch": "master",
+  "path": "aimux-providers/src/google_pse.rs",
+  "line": 60,
+  "pattern": "googleapis.com/customsearch/v1",
+  "kind": "setting",
+  "setting": "baseUrl",
+  "public_items": [],
+  "guide": "https://specstream.ai/google-pse/aimux"
+ }
+]
